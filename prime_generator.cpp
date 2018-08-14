@@ -1,16 +1,14 @@
-#include <iostream>
-#include<cstdio>
-#include<math.h>
+#include<bits/stdc++.h>
 #define ll long long
-#define size1 32000
+#define size1 45000
 #include<vector>
 void setprime();
 void printprime(int a,int b);
-int p[size1];
+int p[size1]; //stores the all possible prime factor of given no
 void setprime(){
 int temp=sqrt(size1);
 int k=0;
-for(int i=2;i<=size1;i++){
+for(int i=2;i<=size1;i++){    //creating all prime factor
 
         int x=sqrt(i);
        int flag=0;
@@ -29,7 +27,7 @@ for(int i=2;i<=size1;i++){
 }
 
 
-void printprime(int a,int b){
+void printprime(int a,int b){   //seive making using prime factors
     int f;
     setprime();
 
