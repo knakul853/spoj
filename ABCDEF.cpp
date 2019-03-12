@@ -3,7 +3,7 @@ a*b+c=d*(e+f)
 store the value of left equation in a vector and right in another one !!
 use binary search to find the matching value and add in our solution
 
-here we have used lower and upper bound to calculate all mathing range
+her have used lower and upper bound to calculate all mathing range
 
 */
 #include<bits/stdc++.h>
