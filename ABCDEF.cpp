@@ -18,6 +18,7 @@ vector<int>s1,s2;
 int main()
 {
     scanf("%d",&n);
+    //this is from alok
     for (int i=0;i<n;i++)
     {
         scanf("%d",&x[i]);
