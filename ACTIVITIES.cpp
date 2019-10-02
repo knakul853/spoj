@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-#define ll long long
+#define ll long long  // for a long value
 #define pi pair<ll,ll> // this is use to store the starting time and ending time of classes
 #define pb push_back
 #define MOD 100000000   // to handle large number
