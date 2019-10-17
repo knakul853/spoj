@@ -93,7 +93,7 @@ while(g>=(l*i)){
     i++;
   };
 
-cout<<"result "<<c;}
+cout<<"\n result "<<c;}
 
 return 0;
 }
